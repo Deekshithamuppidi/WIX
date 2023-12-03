@@ -1,0 +1,86 @@
+.sec1{
+    text-align: center;
+   padding: 30px;
+    background-color: rgb(56, 79, 195);
+    color: white;
+}
+.sec1 p{
+    font-size: 20px;
+}
+.sec1 h1{
+    font-size: 65px;;
+}
+.sec1 button{
+  background-color:rgb(56, 79, 195);
+  color: white;  
+  height: 45px;
+  font-size: 17px;
+  padding: 12px;
+  /* width:200px; */
+ border-color: white;
+  border-radius: 15px;
+  margin: 10px;
+cursor: pointer;
+}
+.sec1 button:hover{
+    background-color:rgb(90, 90, 255);
+    /* scale: 1.02; */
+    transition: all 1s;
+}
+.sec1 div{
+    margin:30px;
+}
+#sec01{
+    margin-top: 92px;
+    text-align: center;
+    background-color: #2F40AD;
+    height: 40px;
+    padding: 10px;
+    color: rgb(207, 204, 204);
+}
+#get{
+    color: black;
+    background-color: white;
+    height:50px;
+    width:200px;
+    border-radius: 25px;
+    font-size: 20px;
+}
+#img1{
+height: 500px;
+width:700px;
+border-radius: 20px;
+margin-left: 20px;
+z-index: -1;
+}
+/* #imgs1{
+    height: 550px;
+    width:750px;
+    border-radius: 20px;
+    margin-left: 20px;
+    background-color: aliceblue;
+    opacity: 0.9;
+    z-index: 1;
+    } */
+#img2{
+    height: 250px;
+    width:200px;
+    border-radius: 20px;
+    margin-left: 20px;
+}
+#sec2 {
+    margin-left: 200px;
+    margin-top: 100px;
+   
+}
+#sec2 h1{
+    font-size: 60px;
+}
+#main2{
+    display: flex;
+}
+#main2 div{
+    margin-left: 50px;
+    margin-top: 50px;
+    font-size: 20px;
+}

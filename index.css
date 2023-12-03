@@ -1,0 +1,70 @@
+@import url("./main.css");
+*{
+    padding:0%;
+    margin:0%;
+    box-sizing: border-box;
+    font-family: HelveticaNeue,Helvetica Neue,helvetica,Sans-Serif;;
+}
+#head1 ol {
+display: flex;
+list-style-type: none;
+}
+#head1 ol li{
+    margin: 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+#head1 ol li:hover,.head2 a:hover,#globe:hover{
+    color: blue;
+}
+header button{
+    background-color: blue;
+    color: white;
+    height: 35px;
+    width:150px;
+    font-size: 15px;
+    border-radius: 25px;
+     font-weight: 700;
+     border-color: white;
+     cursor: pointer;
+     margin-left: 20px;
+}
+.head2 a{
+    font-size: 16px;
+    color: black;
+    margin-left: 20px;
+}
+.head2 img{
+    cursor: pointer;
+}
+.head2 img:hover{
+color: blue;
+}
+.head2,#head1{
+    margin-top: 30px;
+}
+.head2{
+    margin-left: 240px;
+    margin-top: 30px;
+}
+
+#head01{
+    display: flex;
+}
+header{
+    width:100%;
+    height: 110px;
+     /* border: 2px solid;  */
+    box-shadow: 0px 0px 3px ;
+    background-color: white;
+    position: fixed;
+}
+.res{
+    height:450px;
+    width:350px;
+    background-color: white;
+    border: 2px solid ;
+    border-radius: 10px;
+    padding: 30px;
+    display: none;
+}
